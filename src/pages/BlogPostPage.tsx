@@ -137,6 +137,10 @@ const BlogPostPage: React.FC = () => {
               </h1>
 
               <p className="text-lg text-gray-400 font-rubik leading-relaxed">{post.excerpt}</p>
+
+              <p className="text-sm text-gray-500 font-rubik mt-4">
+                נכתב על ידי {post.author || 'סטינגר ישראל'}
+              </p>
             </header>
 
             <div className="prose prose-invert max-w-none">
