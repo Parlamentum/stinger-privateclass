@@ -1,26 +1,20 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Benefits from './components/Benefits';
-import Pricing from './components/Pricing';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import HomePage from './pages/HomePage';
+import BlogPage from './pages/BlogPage';
+import BlogPostPage from './pages/BlogPostPage';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#1a1a1a]">
-      <Navbar />
-      <Hero />
-      <Benefits />
-      <About />
-      <FAQ />
-      <Pricing />
-      <Testimonials />
-      <Footer />
-    </div>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

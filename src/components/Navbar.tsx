@@ -1,9 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+
+const navLinks = [
+  { href: '/#about', label: 'עליי' },
+  { href: '/#benefits', label: 'יתרונות' },
+  { href: '/blog', label: 'בלוג', isRoute: true },
+  { href: '/#pricing', label: 'מחירים' },
+  { href: '/#testimonials', label: 'חוות דעת' },
+  { href: '/#faq', label: 'שאלות נפוצות' },
+  { href: '/#contact', label: 'צור קשר' },
+];
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,18 +33,35 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#" className="text-2xl font-handjet text-green-500 hover:text-green-400 transition-colors">
+          <Link to="/" className="text-2xl font-handjet text-green-500 hover:text-green-400 transition-colors">
             סטינגר ישראל
-          </a>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8 space-x-reverse">
-            <a href="#about" className="text-gray-300 hover:text-green-500 transition-colors font-rubik">עליי</a>
-            <a href="#benefits" className="text-gray-300 hover:text-green-500 transition-colors font-rubik">יתרונות</a>
-            <a href="#pricing" className="text-gray-300 hover:text-green-500 transition-colors font-rubik">מחירים</a>
-            <a href="#testimonials" className="text-gray-300 hover:text-green-500 transition-colors font-rubik">חוות דעת</a>
-            <a href="#faq" className="text-gray-300 hover:text-green-500 transition-colors font-rubik">שאלות נפוצות</a>
-            <a href="#contact" className="text-gray-300 hover:text-green-500 transition-colors font-rubik">צור קשר</a>
+            {navLinks.map((link) =>
+              link.isRoute ? (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className={`transition-colors font-rubik ${
+                    location.pathname.startsWith('/blog')
+                      ? 'text-green-500'
+                      : 'text-gray-300 hover:text-green-500'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-gray-300 hover:text-green-500 transition-colors font-rubik"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -49,12 +78,27 @@ const Navbar: React.FC = () => {
           isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
         } overflow-hidden`}>
           <div className="py-4 space-y-4">
-            <a href="#about" className="block text-gray-300 hover:text-green-500 transition-colors font-rubik">עליי</a>
-            <a href="#benefits" className="block text-gray-300 hover:text-green-500 transition-colors font-rubik">יתרונות</a>
-            <a href="#pricing" className="block text-gray-300 hover:text-green-500 transition-colors font-rubik">מחירים</a>
-            <a href="#testimonials" className="block text-gray-300 hover:text-green-500 transition-colors font-rubik">חוות דעת</a>
-            <a href="#faq" className="block text-gray-300 hover:text-green-500 transition-colors font-rubik">שאלות נפוצות</a>
-            <a href="#contact" className="block text-gray-300 hover:text-green-500 transition-colors font-rubik">צור קשר</a>
+            {navLinks.map((link) =>
+              link.isRoute ? (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="block text-gray-300 hover:text-green-500 transition-colors font-rubik"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="block text-gray-300 hover:text-green-500 transition-colors font-rubik"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
           </div>
         </div>
       </div>

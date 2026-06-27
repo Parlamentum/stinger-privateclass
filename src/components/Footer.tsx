@@ -1,5 +1,6 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Instagram, Youtube, MessageCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Phone, Instagram, Youtube, MessageCircle } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -30,16 +31,19 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-handjet text-green-500 mb-4">קישורים מהירים</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-gray-400 hover:text-green-500 transition-colors">עליי</a>
+                <a href="/#about" className="text-gray-400 hover:text-green-500 transition-colors">עליי</a>
               </li>
               <li>
-                <a href="#benefits" className="text-gray-400 hover:text-green-500 transition-colors">יתרונות</a>
+                <a href="/#benefits" className="text-gray-400 hover:text-green-500 transition-colors">יתרונות</a>
               </li>
               <li>
-                <a href="#pricing" className="text-gray-400 hover:text-green-500 transition-colors">מחירים</a>
+                <Link to="/blog" className="text-gray-400 hover:text-green-500 transition-colors">בלוג מיינקראפט</Link>
               </li>
               <li>
-                <a href="#faq" className="text-gray-400 hover:text-green-500 transition-colors">שאלות נפוצות</a>
+                <a href="/#pricing" className="text-gray-400 hover:text-green-500 transition-colors">מחירים</a>
+              </li>
+              <li>
+                <a href="/#faq" className="text-gray-400 hover:text-green-500 transition-colors">שאלות נפוצות</a>
               </li>
             </ul>
           </div>
@@ -82,7 +86,7 @@ const Footer: React.FC = () => {
               שיעורים פרטיים במיינקראפט עם יוטיובר מוביל בישראל. למידה חווייתית דרך משחק, שיפור אנגלית ופיתוח כישורים דיגיטליים. שיעורים מותאמים אישית, אחד על אחד, עם מורה מנוסה עם למעלה מ-10 שנות ניסיון.
             </p>
             <p>
-              מיינקראפט | שיעורים פרטיים | לימוד אנגלית | למידה חווייתית | יוטיובר | שיעורים אונליין | מורה פרטי למיינקראפט | שיעורי מיינקראפט | לימוד דרך משחק
+              מיינקראפט | שיעורים פרטיים | לימוד אנגלית | למידה חווייתית | יוטיובר | שיעורים אונליין | מורה פרטי למיינקראפט | שיעורי מיינקראפט | לימוד דרך משחק | רדסטון מיינקראפט | מדריך הישרדות | סידים מיינקראפט | מיינקראפט לילדים | מיינקראפט חינוכי
             </p>
           </div>
         </div>
