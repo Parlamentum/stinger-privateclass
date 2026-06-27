@@ -39,14 +39,14 @@ const KnowledgeHubPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="מרכז הידע — Use Cases למיינקראפט"
-        description="20 מדריכי Use Case מעשיים למיינקראפט: הישרדות, בנייה, Redstone, Nether, חקירה ו-Multiplayer. צעד אחר צעד, בעברית, מהניסיון של סטינגר."
+        title="מרכז הידע — מדריכים למיינקראפט"
+        description="מדריכים מעשיים למיינקראפט בעברית: הישרדות, בנייה, Redstone, Nether, חקירה ומשחק בטוח. צעד אחר צעד, מהניסיון של סטינגר."
         keywords={[
           'מרכז ידע מיינקראפט',
-          'use case מיינקראפט',
           'מדריך מיינקראפט',
           'טיפים survival',
           'רדסטון',
+          'מיינקראפט למתחילים',
         ]}
         path="/knowledge"
       />
@@ -60,7 +60,7 @@ const KnowledgeHubPage: React.FC = () => {
               <h1 className="text-4xl md:text-5xl font-handjet text-green-500">מרכז הידע</h1>
             </div>
             <p className="text-gray-400 font-rubik max-w-2xl mx-auto text-lg mb-4">
-              Use Cases מעשיים לעולם המיינקראפט — מצב, מטרה, צעדים וטיפים מהשטח
+              מדריכים מעשיים לעולם המיינקראפט — מה שצריך כדי להתקדם, בלי לנחש
             </p>
             <p className="text-gray-500 font-rubik text-sm">
               {useCasePosts.length} מדריכים · מסודרים לפי נושא
@@ -149,7 +149,7 @@ const KnowledgeHubPage: React.FC = () => {
             <div className="minecraft-card text-center">
               <h2 className="text-xl font-handjet text-green-500 mb-3">רוצים ללמוד עם מורה?</h2>
               <p className="text-gray-400 font-rubik mb-4 text-sm">
-                שיעורים פרטיים — נבנה יחד את ה-Use Case שמתאים לילד/ה שלכם
+                שיעורים פרטיים — נלמד יחד בדיוק את מה שהילד/ה שלכם צריכים, בקצב שלהם
               </p>
               <Link
                 to="/#pricing"

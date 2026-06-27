@@ -15,7 +15,7 @@ const KnowledgePreviewSection: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-handjet text-green-500">מרכז הידע</h2>
           </div>
           <p className="text-gray-400 font-rubik max-w-2xl mx-auto">
-            {useCasePosts.length} מדריכי Use Case — מצב, מטרה, צעדים וטיפים מהשטח
+            מדריכים מעשיים — איך לשרוד, לבנות, לחקור ולהתקדם במיינקראפט
           </p>
         </div>
 

@@ -40,7 +40,7 @@ export function getPostsByCategory(category: string): BlogPost[] {
 }
 
 export function getRelatedPosts(post: BlogPost, limit = 2): BlogPost[] {
-  const pool = post.kind === 'use-case' ? useCasePosts : blogPosts;
+  const pool = post.kind === 'guide' ? useCasePosts : blogPosts;
   return pool
     .filter((p) => p.slug !== post.slug && (p.category === post.category || p.topic === post.topic))
     .slice(0, limit);

@@ -1,5 +1,5 @@
 import { Link, useParams, useLocation } from 'react-router-dom';
-import { Clock, Tag, ArrowRight, Calendar, BookOpen } from 'lucide-react';
+import { Clock, Tag, ArrowRight, Calendar } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
@@ -55,9 +55,9 @@ const BlogPostPage: React.FC = () => {
   const location = useLocation();
   const post = slug ? getPostBySlug(slug) : undefined;
 
-  const isUseCase = post?.kind === 'use-case' || location.pathname.startsWith('/knowledge');
-  const basePath = isUseCase ? '/knowledge' : '/blog';
-  const backLabel = isUseCase ? 'חזרה למרכז הידע' : 'חזרה לבלוג';
+  const isGuide = post?.kind === 'guide' || location.pathname.startsWith('/knowledge');
+  const basePath = isGuide ? '/knowledge' : '/blog';
+  const backLabel = isGuide ? 'חזרה למרכז הידע' : 'חזרה לבלוג';
 
   if (!post) {
     return (
@@ -121,12 +121,6 @@ const BlogPostPage: React.FC = () => {
 
             <header className="mb-10">
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400 mb-4">
-                {isUseCase && (
-                  <span className="flex items-center gap-1 text-green-400">
-                    <BookOpen className="w-4 h-4" />
-                    Use Case
-                  </span>
-                )}
                 <span className="flex items-center gap-1">
                   <Tag className="w-4 h-4 text-green-500" />
                   {post.category}
@@ -182,7 +176,7 @@ const BlogPostPage: React.FC = () => {
           {related.length > 0 && (
             <div className="container mx-auto px-4 max-w-5xl mt-16">
               <h2 className="text-2xl font-handjet text-green-500 mb-6">
-                {isUseCase ? 'מדריכים קשורים' : 'מאמרים קשורים'}
+                {isGuide ? 'מדריכים קשורים' : 'מאמרים קשורים'}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {related.map((p) => (

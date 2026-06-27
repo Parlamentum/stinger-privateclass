@@ -85,7 +85,7 @@ const BlogPage: React.FC = () => {
             <div className="minecraft-card text-center">
               <h2 className="text-xl font-handjet text-green-500 mb-3">מרכז הידע</h2>
               <p className="text-gray-400 font-rubik mb-4 text-sm">
-                20+ מדריכי Use Case מעשיים — הישרדות, Redstone, Nether ועוד
+                20+ מדריכים מעשיים — הישרדות, Redstone, Nether ועוד
               </p>
               <Link
                 to="/knowledge"
@@ -105,6 +105,7 @@ const BlogPage: React.FC = () => {
             >
               קבע שיעור
             </Link>
+            </div>
           </div>
         </div>
 

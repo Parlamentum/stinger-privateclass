@@ -2,7 +2,7 @@ import type { BlogPost } from './types';
 
 export const useCasePosts: BlogPost[] = [
   {
-    slug: 'use-case-first-night-house',
+    slug: 'first-night-house',
     title: 'איך לשרוד את הלילה הראשון ולבנות בית בסיסי',
     metaDescription:
       'מדריך מעשי לשרוד את הלילה הראשון במיינקראפט Survival: כלים, מחסה, אור וטיפים מהשטח — בקצב שמתאים לילדים ולהורים.',
@@ -22,17 +22,17 @@ export const useCasePosts: BlogPost[] = [
       'הילד/ה התחילו עולם חדש והשמש שוקעת? הנה בדיוק מה לעשות — מהר — כדי לשרוד את הלילה ולבנות בסיס קטן שיעבוד.',
     featured: true,
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה שלכם פתחו עולם Survival חדש, אספו כמה עצים, והפתאום השמש שוקעת. מסך כהה, קולות מוזרים בחוץ, ואין בית. זה הרגע שבו הרבה ילדים (והורים) מרגישים לחץ — אבל עם סדר פעולות נכון, הלילה הראשון הוא לגמרי ניתן לניהול.',
+          'הילד/ה שלכם פתחו עולם Survival חדש, אספו כמה עצים, והפתאום השמש שוקעת. מסך כהה, קולות מוזרים בחוץ, ואין בית. זה הרגע שבו הרבה ילדים (והורים) מרגישים לחץ — אבל עם סדר פעולות נכון, הלילה הראשון הוא לגמרי ניתן לניהול.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -94,10 +94,10 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-find-diamonds',
+    slug: 'find-diamonds',
     title: 'איך למצוא יהלומים ב-Survival בלי לבזבז זמן',
     metaDescription:
-      'איפה לחפור ליהלומים ב-1.21, באיזה Y, איך לכרות נכון, ומה לעשות אחרי שמצאתם — מדריך Use Case מעשי בעברית.',
+      'איפה לחפור ליהלומים ב-1.21, באיזה Y, איך לכרות נכון, ומה לעשות אחרי שמצאתם — מדריך מעשי מעשי בעברית.',
     keywords: [
       'יהלומים מיינקראפט',
       'כריית diamonds',
@@ -114,17 +114,17 @@ export const useCasePosts: BlogPost[] = [
       'יהלומים הם השלב שמשנה את המשחק — אבל כרייה אקראית מבזבזת שעות. הנה איפה לחפור, באיזה עומק, ובאיזה סדר.',
     featured: true,
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה שלכם כבר יש להם Iron Pickaxe, בית, ואוכל — ועכשיו הם רוצים Diamonds. הם חופרים למטה בכל מקום, מוצאים Lava, מתים, ומתוסכלים. זה קורה כמעט בכל שיעור שני.',
+          'הילד/ה שלכם כבר יש להם Iron Pickaxe, בית, ואוכל — ועכשיו הם רוצים Diamonds. הם חופרים למטה בכל מקום, מוצאים Lava, מתים, ומתוסכלים. זה קורה כמעט בכל שיעור שני.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -186,7 +186,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-nether-portal',
+    slug: 'nether-portal',
     title: 'איך לבנות Nether Portal ולהיכנס לעולם התחתון',
     metaDescription:
       'מדריך לבניית Nether Portal: איך להשיג Obsidian, איפה לבנות, איך להדליק, ומה לקחת ל-Neher — צעד אחר צעד.',
@@ -206,17 +206,17 @@ export const useCasePosts: BlogPost[] = [
       'ה-Nether הוא השער ל-Blaze Rods, Netherite ו-Netherrack — אבל קודם צריך Portal. הנה איך בונים אותו נכון.',
     featured: true,
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה שמעו על Nether, רוצים Blaze Rods ל-Eyes of Ender, או פשוט לחקור — אבל לא יודעים מאיפה מגיע Obsidian ואיך בונים Portal. לפעמים הם בונים Portal קטן מדי, או מדליקים אותו בלי להכין ציוד.',
+          'הילד/ה שמעו על Nether, רוצים Blaze Rods ל-Eyes of Ender, או פשוט לחקור — אבל לא יודעים מאיפה מגיע Obsidian ואיך בונים Portal. לפעמים הם בונים Portal קטן מדי, או מדליקים אותו בלי להכין ציוד.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -278,7 +278,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-food-farm',
+    slug: 'food-farm',
     title: 'איך להקים חווה שמספקת אוכל לכל העונה',
     metaDescription:
       'מדריך להקמת חווה ב-Survival: Wheat, גזר, תפוחי עץ, בעלי חיים — אוכל קבוע בלי לצוד כל יום.',
@@ -297,17 +297,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'ציד כל יום מתיש. חווה קטנה ליד הבית נותנת Bread, גזר ו-Baked Potato — בלי לרוץ אחרי חזירים.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה אוכלים Rotten Flesh או Bread מדי פעם, וכל פעם שה-Food bar יורד הם יוצאים לצוד. זה עובד — עד שמתחילים לחקור, לכרות, או לבנות. אז צריך מקור אוכל קבוע.',
+          'הילד/ה אוכלים Rotten Flesh או Bread מדי פעם, וכל פעם שה-Food bar יורד הם יוצאים לצוד. זה עובד — עד שמתחילים לחקור, לכרות, או לבנות. אז צריך מקור אוכל קבוע.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -369,10 +369,10 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-village-start',
+    slug: 'village-start',
     title: 'איך להתיישב ליד כפר ולהפיק ממנו ערך',
     metaDescription:
-      'איך למצוא Village, להתיישב לידו, לגנן על Villagers, ולהפיק ממנו סחר, אוכל ו-Iron — מדריך Use Case.',
+      'איך למצוא Village, להתיישב לידו, לגנן על Villagers, ולהפיק ממנו סחר, אוכל ו-Iron — מדריך מעשי.',
     keywords: [
       'Village מיינקראפט',
       'Villagers',
@@ -388,17 +388,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Village קרוב = אוכל, סחר, Iron ו-Bed מוכן. הנה איך למצוא כפר, להתיישב נכון, ולהגן עליו.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה מצאו Village במקרה, רצו Bed ו-Crops — ואז Zombies הרגו Villagers, או שהם שברו את Iron Golem בטעות. Village הוא משאב זהב, אבל צריך לדעת איך לנהל אותו.',
+          'הילד/ה מצאו Village במקרה, רצו Bed ו-Crops — ואז Zombies הרגו Villagers, או שהם שברו את Iron Golem בטעות. Village הוא משאב זהב, אבל צריך לדעת איך לנהל אותו.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -460,7 +460,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-enchanting-table',
+    slug: 'enchanting-table',
     title: 'איך להקים Enchanting Table ולשדרג כלים',
     metaDescription:
       'מדריך ל-Enchanting Table: חומרים, Bookshelves, Lapis Lazuli, ואיך לקבל Fortune, Efficiency ו-Unbreaking.',
@@ -479,17 +479,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Diamond Pickaxe בלי Enchantment זה כמו רכב בלי מנוע. הנה איך מקימים Enchanting Table ומשדרגים כלים נכון.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: יש Diamond Pickaxe, אבל כרייה איטית, כלים נשברים מהר, ו-3 Diamonds לכל כלי. הילד/ה שמעו על Enchantments אבל לא יודעים מאיפה Book, Lapis, ו-Bookshelves.',
+          'יש Diamond Pickaxe, אבל כרייה איטית, כלים נשברים מהר, ו-3 Diamonds לכל כלי. הילד/ה שמעו על Enchantments אבל לא יודעים מאיפה Book, Lapis, ו-Bookshelves.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -551,7 +551,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-stronghold-end',
+    slug: 'stronghold-end',
     title: 'איך למצוא Stronghold ולהגיע ל-End Portal',
     metaDescription:
       'מדריך למציאת Stronghold עם Eyes of Ender, ניווט במבוכים, והפעלת End Portal — צעד אחר צעד.',
@@ -570,17 +570,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'הדרך ל-Ender Dragon עוברת דרך Stronghold. הנה איך מוצאים אותו, מנווטים, ומפעילים את הפורטל.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה מוכנים ל-End — יש Diamond Armor, Sword, Bow — אבל לא יודעים איפה Stronghold, כמה Eyes of Ender צריך, או מה עושים כשה-Eye נשבר באוויר.',
+          'הילד/ה מוכנים ל-End — יש Diamond Armor, Sword, Bow — אבל לא יודעים איפה Stronghold, כמה Eyes of Ender צריך, או מה עושים כשה-Eye נשבר באוויר.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -642,10 +642,10 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-defeat-ender-dragon',
+    slug: 'defeat-ender-dragon',
     title: 'איך להתכונן ולנצח את ה-Ender Dragon',
     metaDescription:
-      'הכנה לקרב Ender Dragon: ציוד, Bed strategy, השמדת End Crystals, וטיפים לניצחון — מדריך Use Case.',
+      'הכנה לקרב Ender Dragon: ציוד, Bed strategy, השמדת End Crystals, וטיפים לניצחון — מדריך מעשי.',
     keywords: [
       'Ender Dragon',
       'קרב End',
@@ -661,17 +661,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Ender Dragon הוא הבoss הגדול — אבל עם ציוד נכון ואסטרטגיה, גם ילדים מצליחים. הנה איך.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה הגיעו ל-End, Dragon עף מעל, End Crystals מרפאים אותו, והם מתים שוב ושוב. זה Boss Fight אמיתי — צריך תוכנית, לא רק Sword.',
+          'הילד/ה הגיעו ל-End, Dragon עף מעל, End Crystals מרפאים אותו, והם מתים שוב ושוב. זה Boss Fight אמיתי — צריך תוכנית, לא רק Sword.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -733,7 +733,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-redstone-elevator',
+    slug: 'redstone-elevator',
     title: 'איך לבנות מעלית Redstone פשוטה',
     metaDescription:
       'מדריך לבניית מעלית Redstone: Soul Sand, Bubble Columns, וגרסה פשוטה עם Pistons — ללא מודים.',
@@ -752,17 +752,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'מדרגות לוקחות זמן. מעלית Bubble Column מעלה ומורידה בשניות — וזה פרויקט Redstone מושלם לילדים.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הבסיס של הילד/ה עמוק במines, או בניין גבוה — וכל פעם עולים ויורדים במדרגות. הם רוצים "מעלית" כמו ב-YouTube, אבל Redstone נראה מסובך.',
+          'הבסיס של הילד/ה עמוק במines, או בניין גבוה — וכל פעם עולים ויורדים במדרגות. הם רוצים "מעלית" כמו ב-YouTube, אבל Redstone נראה מסובך.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -824,7 +824,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-auto-wheat-farm',
+    slug: 'auto-wheat-farm',
     title: 'איך לבנות חווה אוטומטית לחיטה',
     metaDescription:
       'מדריך לחווה אוטומטית ל-Wheat: Water, Pistons, Hopper — Bread בלי לקצור ידנית.',
@@ -843,17 +843,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'חווה שמקצרת, אוספת ושולחת Wheat ל-Chest — Bread תמיד מוכן. פרויקט Redstone קלאסי.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: יש חווה ידנית, אבל הילד/ה שוכחים לקצור, Wheat נופל, או שפשוט מתעייפים. Farm אוטומטי = Bread ב-Chest בלי מאמץ.',
+          'יש חווה ידנית, אבל הילד/ה שוכחים לקצור, Wheat נופל, או שפשוט מתעייפים. Farm אוטומטי = Bread ב-Chest בלי מאמץ.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -915,7 +915,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-villager-trading',
+    slug: 'villager-trading',
     title: 'איך לסחור עם Villagers ולקבל Emeralds',
     metaDescription:
       'מדריך סחר Villagers: Professions, discount, Iron Farm, Librarian — Emeralds ו-Enchanted Books.',
@@ -934,17 +934,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Emeralds מ-Villagers = Enchanted Books, Gear, ו-Food. הנה איך סוחרים נכון ומקבלים discount.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה רוצים Enchanted Books או Emerald Blocks — אבל לא יודעים איזה Villager נותן מה, איך מורידים מחירים, או למה Librarian לא מופיע.',
+          'הילד/ה רוצים Enchanted Books או Emerald Blocks — אבל לא יודעים איזה Villager נותן מה, איך מורידים מחירים, או למה Librarian לא מופיע.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1006,7 +1006,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-underground-base',
+    slug: 'underground-base',
     title: 'איך לבנות בסיס תת-קרקעי בטוח ונוח',
     metaDescription:
       'מדריך לבסיס תת-קרקעי: מיקום, תכנון חדרים, תאורה, ventilation — בטוח מ-Mobs, נוח לחיים.',
@@ -1025,17 +1025,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'בסיס מעל הקרקע מושך Mobs. תת-קרקע = בטוח, מסודר, ומרגיש כמו bunker מגניב.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה רוצים בסיס "סודי" או פשוט בטוח יותר — אבל חופרים בלי תוכנית, Getting lost, או Water/Lava surprises.',
+          'הילד/ה רוצים בסיס "סודי" או פשוט בטוח יותר — אבל חופרים בלי תוכנית, Getting lost, או Water/Lava surprises.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1097,7 +1097,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-trial-chambers-loot',
+    slug: 'trial-chambers-loot',
     title: 'איך לנצח Trial Chambers ולקחת loot',
     metaDescription:
       'מדריך ל-Trial Chambers ב-1.21: Trial Spawner, Ominous Trial, Vault — ציוד, אסטרטגיה ו-loot.',
@@ -1116,17 +1116,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Trial Chambers ב-1.21 = loot חדש, אתגרים, ו-Vaults. הנה איך נכנסים, נלחמים, ויוצאים עם שלל.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה ב-1.21, שמעו על Trial Chambers, מצאו structure — אבל Trial Spawner מציף Mobs, Ominous Trial מפחיד, ו-Vault לא נפתח.',
+          'הילד/ה ב-1.21, שמעו על Trial Chambers, מצאו structure — אבל Trial Spawner מציף Mobs, Ominous Trial מפחיד, ו-Vault לא נפתח.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1188,7 +1188,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-ancient-city',
+    slug: 'ancient-city',
     title: 'איך לחקור Ancient City בלי Warden',
     metaDescription:
       'מדריך ל-Ancient City: Deep Dark, Sculk, Warden avoidance, loot — Wool, Silence, Sneak.',
@@ -1207,17 +1207,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Ancient City = loot מדהים — אבל Warden שומע הכל. הנה איך לחקור בשקט ולצאת בחיים.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה רוצים Echo Shards, Disc 5, Enchanted Golden Apples — אבל Warden spawn, רודף, ו-one-shot. הרבה מתים לפני loot.',
+          'הילד/ה רוצים Echo Shards, Disc 5, Enchanted Golden Apples — אבל Warden spawn, רודף, ו-one-shot. הרבה מתים לפני loot.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1279,7 +1279,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-nether-highway',
+    slug: 'nether-highway',
     title: 'איך לבנות Nether Highway לנסיעה מהירה',
     metaDescription:
       'מדריך ל-Nether Highway: 1:8 ratio, Ice + Boat, tunnel building — נסיעה מהירה ב-Overworld.',
@@ -1298,17 +1298,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'ב-Nether, 1 בלוק = 8 ב-Overworld. Highway עם Ice + Boat = נסיעה מהירה לבases רחוקים.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: יש Base, Village, ו-Stronghold — אבל הליכה לוקחת שעות. Nether Highway מקצרת מרחקים פי 8, ו-Boat on Ice = מהירות מטורפת.',
+          'יש Base, Village, ו-Stronghold — אבל הליכה לוקחת שעות. Nether Highway מקצרת מרחקים פי 8, ו-Boat on Ice = מהירות מטורפת.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1370,7 +1370,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-tame-wolf-cat',
+    slug: 'tame-wolf-cat',
     title: 'איך לאלף Wolf ו-Cat ולהפיק מהם תועלת',
     metaDescription:
       'מדריך לאילוף Wolf ו-Cat: Bones, Fish, combat help, Creeper protection — חיות שימושיות ב-Survival.',
@@ -1389,17 +1389,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Wolf = combat partner. Cat = Creeper repellent. שניהם קלים לאילוף — וילדים אוהבים.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה רוצים "חבר" במשחק — Wolf או Cat. הם מנסים להאכיל, לא עובד, או Wolf מת בקרב.',
+          'הילד/ה רוצים "חבר" במשחק — Wolf או Cat. הם מנסים להאכיל, לא עובד, או Wolf מת בקרב.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1461,7 +1461,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-death-items',
+    slug: 'death-items',
     title: 'איך לא לאבד פריטים אחרי מוות',
     metaDescription:
       'מדריך למניעת אובדן פריטים: Bed, KeepInventory, death coords, Storage — Survival בלי frustration.',
@@ -1480,17 +1480,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'מתים עם Diamond Armor ו-20 levels — וfrustration. הנה איך למזער נזק ולהחזיר items.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה מתו ב-Lava, ב-Creeper, או ב-Void — וכל ה-Diamonds, XP, ו-items נעלמו. בכי, כעס, ולפעמים "לא רוצים לשחק יותר".',
+          'הילד/ה מתו ב-Lava, ב-Creeper, או ב-Void — וכל ה-Diamonds, XP, ו-items נעלמו. בכי, כעס, ולפעמים "לא רוצים לשחק יותר".',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1552,7 +1552,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-item-sorter',
+    slug: 'item-sorter',
     title: 'איך לבנות מערכת מיון פריטים בסיסית',
     metaDescription:
       'מדריך ל-Item Sorter: Hopper, Redstone, Filter items — Chests מסודרים אוטומטית.',
@@ -1571,17 +1571,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Chest אחד מלא בזבל. Item Sorter ממיין Diamond, Iron, Food — אוטומטית. Redstone שימושי.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: אחרי mining session — Chest אחד עם 50 item types. הילד/ה מחפשים Diamond 5 דקות. Sorter = כל item ב-Chest שלו.',
+          'אחרי mining session — Chest אחד עם 50 item types. הילד/ה מחפשים Diamond 5 דקות. Sorter = כל item ב-Chest שלו.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1643,7 +1643,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-safe-multiplayer',
+    slug: 'safe-multiplayer',
     title: 'איך לשחק Multiplayer בצורה בטוחה',
     metaDescription:
       'מדריך בטיחות Multiplayer: Realms, servers, privacy, griefing, chat — להורים וילדים.',
@@ -1662,17 +1662,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'Multiplayer = fun עם חברים — אבל גם strangers, chat, ו-griefing. הנה איך לשחק בטוח.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה רוצים לשחק עם חברים — Realms, server, או "מישהו מהאינטרנט". הורים חוששים: מי שם? מה ב-chat? מישהו יהרוס את הבית?',
+          'הילד/ה רוצים לשחק עם חברים — Realms, server, או "מישהו מהאינטרנט". הורים חוששים: מי שם? מה ב-chat? מישהו יהרוס את הבית?',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',
@@ -1734,7 +1734,7 @@ export const useCasePosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'use-case-aesthetic-house',
+    slug: 'aesthetic-house',
     title: 'איך לבנות בית aesthetic שגם נראה טוב',
     metaDescription:
       'מדריך לבית aesthetic: blocks, palette, depth, roof — נראה טוב וגם functional.',
@@ -1753,17 +1753,17 @@ export const useCasePosts: BlogPost[] = [
     excerpt:
       'בית "קופסה" עובד — אבל aesthetic house = גאווה, creativity, ו-skills. הנה איך.',
     author: 'סטינגר ישראל',
-    kind: 'use-case',
+    kind: 'guide',
     sections: [
       {
         type: 'paragraph',
         content:
-          'המצב: הילד/ה בנו בית 5×5, יש Bed ו-Chest — אבל "זה מכוער". רוצים Pinterest/YouTube house, לא יודעים מאיפה להתחיל.',
+          'הילד/ה בנו בית 5×5, יש Bed ו-Chest — אבל "זה מכוער". רוצים Pinterest/YouTube house, לא יודעים מאיפה להתחיל.',
       },
       {
         type: 'heading',
         level: 2,
-        content: 'המטרה',
+        content: 'מה רוצים להשיג?',
       },
       {
         type: 'paragraph',

@@ -5,7 +5,7 @@ export interface BlogSection {
   items?: string[];
 }
 
-export type ArticleKind = 'blog' | 'use-case';
+export type ArticleKind = 'blog' | 'guide';
 
 export interface BlogPost {
   slug: string;
