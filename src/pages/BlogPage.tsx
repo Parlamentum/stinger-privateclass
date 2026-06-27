@@ -38,7 +38,7 @@ const BlogPage: React.FC = () => {
               <h1 className="text-4xl md:text-5xl font-handjet text-green-500">בלוג מיינקראפט</h1>
             </div>
             <p className="text-gray-400 font-rubik max-w-2xl mx-auto text-lg">
-              מדריכים, טיפים ומאמרים על מיינקראפט — לשחקנים, להורים, ולכל מי שאוהב את העולם הזה
+              מאמרים ומדריכים על מיינקראפט — להורים, לילדים, ולכל מי שרוצה להבין את העולם הזה לעומק
             </p>
           </div>
         </header>

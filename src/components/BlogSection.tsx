@@ -15,7 +15,7 @@ const BlogSection: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-handjet text-green-500">הבלוג שלנו</h2>
           </div>
           <p className="text-gray-400 font-rubik max-w-2xl mx-auto">
-            מדריכים, טיפים ומאמרים על מיינקראפט — רדסטון, הישרדות, חינוך ועוד
+            מאמרים, מדריכים וטיפים על מיינקראפט — בשפה שלכם, מהניסיון שלי בשטח
           </p>
         </div>
 

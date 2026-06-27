@@ -37,7 +37,7 @@ export const keywordClusters: KeywordCluster[] = [
       'זמן מסך מיינקראפט',
     ],
     searchIntent: 'Informational — parents researching whether Minecraft is beneficial',
-    articleSlugs: ['is-minecraft-educational-for-kids'],
+    articleSlugs: ['minecraft-logic', 'minecraft-confidence'],
   },
   {
     id: 'redstone-engineering',
@@ -56,7 +56,7 @@ export const keywordClusters: KeywordCluster[] = [
       'מעגל רדסטון',
     ],
     searchIntent: 'Tutorial — players learning redstone mechanics',
-    articleSlugs: ['minecraft-redstone-guide-beginners'],
+    articleSlugs: ['minecraft-redstone'],
   },
   {
     id: 'english-learning',
@@ -73,7 +73,7 @@ export const keywordClusters: KeywordCluster[] = [
       'מיינקראפט Education Edition',
     ],
     searchIntent: 'Commercial/Informational — parents seeking English improvement via gaming',
-    articleSlugs: ['learn-english-with-minecraft'],
+    articleSlugs: ['minecraft-english'],
   },
   {
     id: 'version-comparison',
@@ -91,7 +91,7 @@ export const keywordClusters: KeywordCluster[] = [
       'מיינקראפט למחשב',
     ],
     searchIntent: 'Informational — new players choosing edition',
-    articleSlugs: ['minecraft-java-vs-bedrock'],
+    articleSlugs: ['minecraft-buying-guide'],
   },
   {
     id: 'seeds-worldgen',
@@ -106,11 +106,11 @@ export const keywordClusters: KeywordCluster[] = [
     secondaryKeywords: [
       'סיד כפר ליד spawn',
       'Trial Chambers seed',
-      'סידים לילדים',
+      'minecraft-trial-chambers',
       'minecraft seed map',
     ],
     searchIntent: 'Tutorial/Listicle — players starting new worlds',
-    articleSlugs: ['best-minecraft-seeds-1-21'],
+    articleSlugs: ['best-minecraft-seeds-1-21', 'minecraft-trial-chambers'],
   },
   {
     id: 'survival-basics',
@@ -129,7 +129,7 @@ export const keywordClusters: KeywordCluster[] = [
       'מיינקראפט survival guide',
     ],
     searchIntent: 'Tutorial — new players learning survival mode',
-    articleSlugs: ['minecraft-survival-guide-beginners'],
+    articleSlugs: ['minecraft-survival-guide'],
   },
   {
     id: 'automation-farms',
@@ -148,6 +148,6 @@ export const keywordClusters: KeywordCluster[] = [
       'minecraft automation',
     ],
     searchIntent: 'Tutorial — intermediate players building farms',
-    articleSlugs: ['minecraft-crafter-automation-guide'],
+    articleSlugs: ['minecraft-crafter-automation', 'minecraft-iron-farm-1-21'],
   },
 ];
