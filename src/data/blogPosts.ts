@@ -2,18 +2,37 @@ export type { BlogPost, BlogSection } from './articles/types';
 
 import { originalPosts } from './articles/originalPosts';
 import { guidePosts } from './articles/guidePosts';
+import { useCasePosts } from './articles/useCasePosts';
 import type { BlogPost } from './articles/types';
 
-export { originalPosts, guidePosts };
+export { originalPosts, guidePosts, useCasePosts };
 
 export const blogPosts: BlogPost[] = [...originalPosts, ...guidePosts];
 
+export const allPosts: BlogPost[] = [...blogPosts, ...useCasePosts];
+
 export function getPostBySlug(slug: string): BlogPost | undefined {
-  return blogPosts.find((post) => post.slug === slug);
+  return allPosts.find((post) => post.slug === slug);
 }
 
 export function getFeaturedPosts(): BlogPost[] {
   return blogPosts.filter((post) => post.featured);
+}
+
+export function getFeaturedUseCases(): BlogPost[] {
+  return useCasePosts.filter((post) => post.featured);
+}
+
+export function getUseCasePosts(): BlogPost[] {
+  return useCasePosts;
+}
+
+export function getUseCaseTopics(): string[] {
+  return [...new Set(useCasePosts.map((p) => p.topic).filter(Boolean) as string[])];
+}
+
+export function getUseCaseCategories(): string[] {
+  return [...new Set(useCasePosts.map((p) => p.category))];
 }
 
 export function getPostsByCategory(category: string): BlogPost[] {
