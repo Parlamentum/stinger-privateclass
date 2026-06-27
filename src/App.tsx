@@ -6,9 +6,11 @@ import BlogPostPage from './pages/BlogPostPage';
 import KnowledgeHubPage from './pages/KnowledgeHubPage';
 
 function App() {
+  const basename = import.meta.env.BASE_URL.replace(/\/$/, '');
+
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={basename || undefined}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/blog" element={<BlogPage />} />
