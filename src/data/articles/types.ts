@@ -5,6 +5,8 @@ export interface BlogSection {
   items?: string[];
 }
 
+export type ArticleKind = 'blog' | 'use-case';
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -17,5 +19,7 @@ export interface BlogPost {
   excerpt: string;
   featured?: boolean;
   author?: string;
+  kind?: ArticleKind;
+  topic?: string;
   sections: BlogSection[];
 }

@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
 import About from '../components/About';
 import BlogSection from '../components/BlogSection';
+import KnowledgePreviewSection from '../components/KnowledgePreviewSection';
 import FAQ from '../components/FAQ';
 import Pricing from '../components/Pricing';
 import Testimonials from '../components/Testimonials';
@@ -30,6 +31,7 @@ const HomePage: React.FC = () => {
         <Benefits />
         <About />
         <BlogSection />
+        <KnowledgePreviewSection />
         <FAQ />
         <Pricing />
         <Testimonials />

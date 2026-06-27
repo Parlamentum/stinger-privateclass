@@ -11,6 +11,11 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://stingerisrael.co.il/knowledge</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://stingerisrael.co.il/blog/minecraft-logic</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -72,6 +77,106 @@
   </url>
   <url>
     <loc>https://stingerisrael.co.il/blog/minecraft-trial-chambers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-first-night-house</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-find-diamonds</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-nether-portal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-food-farm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-village-start</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-enchanting-table</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-stronghold-end</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-defeat-ender-dragon</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-redstone-elevator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-auto-wheat-farm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-villager-trading</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-underground-base</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-trial-chambers-loot</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-ancient-city</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-nether-highway</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-tame-wolf-cat</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-death-items</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-item-sorter</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-safe-multiplayer</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stingerisrael.co.il/knowledge/use-case-aesthetic-house</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

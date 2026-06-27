@@ -81,8 +81,21 @@ const BlogPage: React.FC = () => {
             <p className="text-center text-gray-500 font-rubik py-12">אין מאמרים בקטגוריה זו</p>
           )}
 
-          <div className="mt-16 minecraft-card text-center">
-            <h2 className="text-2xl font-handjet text-green-500 mb-3">רוצים ללמוד עם מורה?</h2>
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="minecraft-card text-center">
+              <h2 className="text-xl font-handjet text-green-500 mb-3">מרכז הידע</h2>
+              <p className="text-gray-400 font-rubik mb-4 text-sm">
+                20+ מדריכי Use Case מעשיים — הישרדות, Redstone, Nether ועוד
+              </p>
+              <Link
+                to="/knowledge"
+                className="text-green-500 hover:text-green-400 font-handjet transition-colors"
+              >
+                למרכז הידע ←
+              </Link>
+            </div>
+            <div className="minecraft-card text-center">
+              <h2 className="text-2xl font-handjet text-green-500 mb-3">רוצים ללמוד עם מורה?</h2>
             <p className="text-gray-400 font-rubik mb-6">
               שיעורים פרטיים במיינקראפט — רדסטון, בנייה, אנגלית ועוד. אחד על אחד עם יוטיובר מנוסה.
             </p>

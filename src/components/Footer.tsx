@@ -37,7 +37,10 @@ const Footer: React.FC = () => {
                 <a href="/#benefits" className="text-gray-400 hover:text-green-500 transition-colors">יתרונות</a>
               </li>
               <li>
-                <Link to="/blog" className="text-gray-400 hover:text-green-500 transition-colors">בלוג מיינקראפט</Link>
+                <Link to="/blog" className="text-gray-400 hover:text-green-500 transition-colors">בלוג</Link>
+              </li>
+              <li>
+                <Link to="/knowledge" className="text-gray-400 hover:text-green-500 transition-colors">מרכז ידע</Link>
               </li>
               <li>
                 <a href="/#pricing" className="text-gray-400 hover:text-green-500 transition-colors">מחירים</a>

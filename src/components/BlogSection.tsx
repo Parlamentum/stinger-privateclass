@@ -12,10 +12,10 @@ const BlogSection: React.FC = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 mb-4">
             <BookOpen className="w-8 h-8 text-green-500" />
-            <h2 className="text-3xl md:text-4xl font-handjet text-green-500">הבלוג שלנו</h2>
+            <h2 className="text-3xl md:text-4xl font-handjet text-green-500">מהבלוג</h2>
           </div>
           <p className="text-gray-400 font-rubik max-w-2xl mx-auto">
-            מאמרים, מדריכים וטיפים על מיינקראפט — בשפה שלכם, מהניסיון שלי בשטח
+            מאמרים להורים — חינוך, ביטחון עצמי, אנגלית ועוד
           </p>
         </div>
 
@@ -28,9 +28,9 @@ const BlogSection: React.FC = () => {
         <div className="text-center">
           <Link
             to="/blog"
-            className="minecraft-button inline-block bg-green-500 text-white px-8 py-3 rounded-lg font-handjet text-lg hover:bg-green-600 transition-colors"
+            className="text-green-500 hover:text-green-400 font-handjet text-lg transition-colors"
           >
-            כל המאמרים
+            כל המאמרים בבלוג ←
           </Link>
         </div>
       </div>

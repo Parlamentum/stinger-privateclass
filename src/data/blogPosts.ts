@@ -39,4 +39,11 @@ export function getPostsByCategory(category: string): BlogPost[] {
   return blogPosts.filter((post) => post.category === category);
 }
 
+export function getRelatedPosts(post: BlogPost, limit = 2): BlogPost[] {
+  const pool = post.kind === 'use-case' ? useCasePosts : blogPosts;
+  return pool
+    .filter((p) => p.slug !== post.slug && (p.category === post.category || p.topic === post.topic))
+    .slice(0, limit);
+}
+
 export const blogCategories = [...new Set(blogPosts.map((p) => p.category))];

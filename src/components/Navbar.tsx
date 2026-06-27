@@ -5,7 +5,8 @@ import { Menu, X } from 'lucide-react';
 const navLinks = [
   { href: '/#about', label: 'עליי' },
   { href: '/#benefits', label: 'יתרונות' },
-  { href: '/blog', label: 'בלוג', isRoute: true },
+  { href: '/blog', label: 'בלוג', isRoute: true, match: '/blog' },
+  { href: '/knowledge', label: 'מרכז ידע', isRoute: true, match: '/knowledge' },
   { href: '/#pricing', label: 'מחירים' },
   { href: '/#testimonials', label: 'חוות דעת' },
   { href: '/#faq', label: 'שאלות נפוצות' },
@@ -45,7 +46,7 @@ const Navbar: React.FC = () => {
                   key={link.href}
                   to={link.href}
                   className={`transition-colors font-rubik ${
-                    location.pathname.startsWith('/blog')
+                    location.pathname.startsWith(link.match || link.href)
                       ? 'text-green-500'
                       : 'text-gray-300 hover:text-green-500'
                   }`}

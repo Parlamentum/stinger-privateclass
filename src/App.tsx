@@ -3,6 +3,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import HomePage from './pages/HomePage';
 import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
+import KnowledgeHubPage from './pages/KnowledgeHubPage';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/knowledge" element={<KnowledgeHubPage />} />
+          <Route path="/knowledge/:slug" element={<BlogPostPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
