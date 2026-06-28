@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { homeHash } from '../utils/paths';
 
 const navLinks = [
-  { href: '/#about', label: 'עליי' },
-  { href: '/#benefits', label: 'יתרונות' },
+  { href: homeHash('about'), label: 'עליי' },
+  { href: homeHash('benefits'), label: 'יתרונות' },
   { href: '/blog', label: 'בלוג', isRoute: true, match: '/blog' },
   { href: '/knowledge', label: 'מרכז ידע', isRoute: true, match: '/knowledge' },
-  { href: '/#pricing', label: 'מחירים' },
-  { href: '/#testimonials', label: 'חוות דעת' },
-  { href: '/#faq', label: 'שאלות נפוצות' },
-  { href: '/#contact', label: 'צור קשר' },
+  { href: homeHash('pricing'), label: 'מחירים' },
+  { href: homeHash('testimonials'), label: 'חוות דעת' },
+  { href: homeHash('faq'), label: 'שאלות נפוצות' },
+  { href: homeHash('contact'), label: 'צור קשר' },
 ];
 
 const Navbar: React.FC = () => {

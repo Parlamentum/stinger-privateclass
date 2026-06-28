@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import BlogCard from '../components/BlogCard';
 import SEO from '../components/SEO';
+import { homeHash } from '../utils/paths';
 import {
   useCasePosts,
   getUseCaseCategories,
@@ -151,12 +152,12 @@ const KnowledgeHubPage: React.FC = () => {
               <p className="text-gray-400 font-rubik mb-4 text-sm">
                 שיעורים פרטיים — נלמד יחד בדיוק את מה שהילד/ה שלכם צריכים, בקצב שלהם
               </p>
-              <Link
-                to="/#pricing"
+              <a
+                href={homeHash('pricing')}
                 className="minecraft-button inline-block bg-green-500 text-white px-6 py-2 rounded-lg font-handjet text-sm"
               >
                 קבע שיעור
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import BlogCard from '../components/BlogCard';
 import SEO from '../components/SEO';
+import { homeHash } from '../utils/paths';
 import { blogPosts, blogCategories } from '../data/blogPosts';
 
 const BlogPage: React.FC = () => {
@@ -99,12 +100,12 @@ const BlogPage: React.FC = () => {
             <p className="text-gray-400 font-rubik mb-6">
               שיעורים פרטיים במיינקראפט — רדסטון, בנייה, אנגלית ועוד. אחד על אחד עם יוטיובר מנוסה.
             </p>
-            <Link
-              to="/#pricing"
+            <a
+              href={homeHash('pricing')}
               className="minecraft-button inline-block bg-green-500 text-white px-8 py-3 rounded-lg font-handjet"
             >
               קבע שיעור
-            </Link>
+            </a>
             </div>
           </div>
         </div>

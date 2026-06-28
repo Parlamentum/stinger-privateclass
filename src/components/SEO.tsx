@@ -10,7 +10,7 @@ interface SEOProps {
   updatedAt?: string;
 }
 
-const SITE_URL = 'https://stingerisrael.co.il';
+const SITE_URL = 'https://stingerisrael.co.il/class';
 const SITE_NAME = 'סטינגר ישראל';
 
 const SEO: React.FC<SEOProps> = ({

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import BlogCard from '../components/BlogCard';
+import { homeHash } from '../utils/paths';
 import { getPostBySlug, getRelatedPosts } from '../data/blogPosts';
 import type { BlogSection as BlogSectionType } from '../data/blogPosts';
 
@@ -164,12 +165,12 @@ const BlogPostPage: React.FC = () => {
               <p className="text-gray-400 font-rubik mb-6">
                 שיעורים פרטיים במיינקראפט — נבנה יחד את הפרויקט, בקצב של הילד/ה, עם סטינגר.
               </p>
-              <Link
-                to="/#pricing"
+              <a
+                href={homeHash('pricing')}
                 className="minecraft-button inline-block bg-green-500 text-white px-8 py-3 rounded-lg font-handjet"
               >
                 קבע שיעור עכשיו
-              </Link>
+              </a>
             </div>
           </div>
 
